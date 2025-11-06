@@ -45,6 +45,14 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-background">
       <main className="flex-1 flex items-center justify-center p-4">
         <div className="w-full max-w-md space-y-6">
+          <div className="text-center space-y-2">
+            <p className="text-2xl md:text-3xl font-bold text-foreground animate-pulse">
+              Your fate is in the hands of the AI God
+            </p>
+            <p className="text-sm text-muted-foreground italic">
+              Trust the algorithm, embrace your destiny
+            </p>
+          </div>
           <Card className="shadow-2xl border-2 border-border">
             <CardHeader className="text-center space-y-2">
               <CardTitle className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
